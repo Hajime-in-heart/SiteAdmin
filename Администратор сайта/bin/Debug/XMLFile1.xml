@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Container ContainerType="Stack" xmlns="http://schemas.microsoft.com/office/2009/05/BusinessApplications/Layout" xmlns:loc="http://schemas.microsoft.com/office/2009/05/BusinessApplications/Localization">
+  <CustomProperties>
+  </CustomProperties>
+  <Children>
+    <OBPart PartType="List" DataSourceName="PrimaryEntityNameInContext" Text="Related Order Headers" Description="A list of all related Orders" >
+      <CustomProperties >
+        <CustomProperty Name="DataSourceMode" Value="AssociationList" />
+        <CustomProperty Name="DataMemberName" Value="GetOrdersForCustomer" />
+        <CustomProperty Name="MaximumVisibleRowCount" Value="12" />
+        <CustomProperty Name="DefaultActionName" Value="Edit" />
+        <CustomProperty Name="DefaultActionSource" Value="TargetContext" />
+        <CustomProperty Name="ConsumerPartName" Value="IPOBP" />
+      </CustomProperties>
+      <ActionNames>
+      </ActionNames>
+    </OBPart>
+    <OBPart PartType="InfoPath">
+      <CustomProperties>
+        <CustomProperty Name="Name" Value="IPOBP" />
+        <CustomProperty Name="FormLocation" Value="OrderHeaderTemplate.xsn" />
+        <CustomProperty Name="IsReadOnly" Value="True" />
+        <CustomProperty Name="Height" Value="300" />
+      </CustomProperties>
+    </OBPart>
+  </Children>
+</Container>

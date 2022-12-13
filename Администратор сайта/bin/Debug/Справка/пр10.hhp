@@ -1,0 +1,28 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=пр10.chm
+Contents file=Table of Contents.hhc
+Default topic=About.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0x419 Русский (Россия)
+Title=Справка
+
+
+[FILES]
+Basic.htm
+Additionally.htm
+About.htm
+Authors.htm
+
+[ALIAS]
+About=About.htm
+Additionally=Additionally.htm
+Authors=Authors.htm
+Basic=Basic.htm
+
+[MAP]
+#include Index.h
+
+[INFOTYPES]
+
